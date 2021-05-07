@@ -1,6 +1,7 @@
 <template>
   <div class="container-tru">
     <h2 class="tru-h2-title">¡Crea tu cuenta!</h2>
+    <h4 class="tru-h4-title">Tru - Group</h4>
     <div class="container-login">
       <b-form
         @submit="onInicioSesion"
@@ -329,7 +330,7 @@ export default {
   .tru-h2-title {
     color: #fff;
     z-index: 5;
-    margin: 50px 0px;
+    margin: 5px 0px;
     letter-spacing: 1.5px;
     font-size: 46px;
   }
@@ -347,5 +348,10 @@ export default {
   .btn-tru {
     height: 50px;
     width: 10rem;
+  }
+  .tru-h4-title {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 40px;
   }
 </style>
